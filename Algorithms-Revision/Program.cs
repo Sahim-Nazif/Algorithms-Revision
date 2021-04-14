@@ -19,6 +19,9 @@ namespace Algorithms_Revision
             list.insertFirst(4);
             list.insertFirst(5);
             list.inserLast(8);
+        
+            list.displayList();
+            list.deleteFirst();
             list.displayList();
             Console.ReadLine();
 
