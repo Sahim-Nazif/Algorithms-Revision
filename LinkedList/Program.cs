@@ -30,6 +30,10 @@ namespace LinkedList
 
             Console.WriteLine("\nRetrieving the first item in the linked list " + first.Value);
             Console.WriteLine("Retrieving the last item in the linked list " + last.Value);
+
+            //Retrieving the Next Item after the first item and previous item before the last
+            Console.WriteLine("\nThe item after the first is " + first.Next.Value);
+            Console.WriteLine("The item before the last is " + last.Previous.Value);
             Console.ReadLine();
         }
     }
