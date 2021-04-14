@@ -34,6 +34,15 @@ namespace LinkedList
             //Retrieving the Next Item after the first item and previous item before the last
             Console.WriteLine("\nThe item after the first is " + first.Next.Value);
             Console.WriteLine("The item before the last is " + last.Previous.Value);
+            //Items can be added or removed relative to an existing item 
+            topMovies.AddAfter(first, "This is Not a Burial");
+            topMovies.AddBefore(last, "Land Focus Features");
+
+            foreach(var movie in topMovies)
+            {
+                Console.WriteLine(movie);
+            }
+
             Console.ReadLine();
         }
     }
