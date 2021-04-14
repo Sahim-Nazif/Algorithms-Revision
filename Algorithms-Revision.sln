@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms-Revision", "Algo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{83C752BF-7004-4A6B-9D84-8A78210BA5FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{6EA55390-ADEA-4DBE-89DF-895FB26E7A0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{83C752BF-7004-4A6B-9D84-8A78210BA5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83C752BF-7004-4A6B-9D84-8A78210BA5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83C752BF-7004-4A6B-9D84-8A78210BA5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA55390-ADEA-4DBE-89DF-895FB26E7A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA55390-ADEA-4DBE-89DF-895FB26E7A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA55390-ADEA-4DBE-89DF-895FB26E7A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA55390-ADEA-4DBE-89DF-895FB26E7A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

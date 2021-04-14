@@ -41,7 +41,9 @@ namespace LinkedList
             {
                 Console.WriteLine(movie);
             }
-
+            Console.WriteLine("Total number of movies " + topMovies.Count);
+            Console.WriteLine(topMovies.Contains("The Dig")); //returns true
+            Console.WriteLine("Search movie " + topMovies.Find("Supernova").Value);
             Console.ReadLine();
         }
     }
