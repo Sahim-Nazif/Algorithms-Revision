@@ -23,8 +23,6 @@ namespace LinkedList
                 Console.WriteLine(movie);
             }
 
-           
-
             LinkedListNode<string> first = topMovies.First;
             LinkedListNode<string> last = topMovies.Last;
 
@@ -38,6 +36,7 @@ namespace LinkedList
             topMovies.AddAfter(first, "This is Not a Burial");
             topMovies.AddBefore(last, "Land Focus Features");
 
+            topMovies.Remove(first);
             foreach(var movie in topMovies)
             {
                 Console.WriteLine(movie);
