@@ -16,6 +16,21 @@ namespace LinkedList
             LinkedList<string> topMovies = new LinkedList<string>(topTenMovies2021);
 
             topMovies.AddFirst("The Vigil");
+            topMovies.AddLast("17 Blocks");
+
+            foreach(var movie in topMovies)
+            {
+                Console.WriteLine(movie);
+            }
+
+           
+
+            LinkedListNode<string> first = topMovies.First;
+            LinkedListNode<string> last = topMovies.Last;
+
+            Console.WriteLine("\nRetrieving the first item in the linked list " + first.Value);
+            Console.WriteLine("Retrieving the last item in the linked list " + last.Value);
+            Console.ReadLine();
         }
     }
 }
