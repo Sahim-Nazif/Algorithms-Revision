@@ -17,6 +17,24 @@ namespace Stack
             maxSize = size;
 
             stackArray = new string[maxSize];
+            top = -1;
+
+        }
+        public void push (string m)
+        {
+            if (isFull())
+            {
+                Console.WriteLine("This stack is full");
+            }
+            else
+            {
+                top++;
+                stackArray[top] = m;
+            }
+        }
+        public bool isFull()
+        {
+            return true;
         }
     }
 }
