@@ -11,7 +11,7 @@ namespace LinkedList
         static void Main(string[] args)
         {
 
-            string[] topTenMovies2021 = {  "Supernova", "The Dig", "Night of the Kings" };
+            string[] topTenMovies2021 = {  "Honeydew", "The Dig", "Night of the Kings" };
 
             LinkedList<string> topMovies = new LinkedList<string>(topTenMovies2021);
 
@@ -43,7 +43,7 @@ namespace LinkedList
             }
             Console.WriteLine("Total number of movies " + topMovies.Count);
             Console.WriteLine(topMovies.Contains("The Dig")); //returns true
-            Console.WriteLine("Search movie " + topMovies.Find("Supernova").Value);
+            Console.WriteLine("Search movie " + topMovies.Find("Honeydew").Value);
             Console.ReadLine();
         }
     }

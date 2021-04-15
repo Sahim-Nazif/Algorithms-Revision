@@ -10,7 +10,10 @@ namespace Stack
     {
         static void Main(string[] args)
         {
+            Stack stack = new Stack(4);
 
+            stack.push("Honeydew");
+            stack.push("Run");
 
         }
     }

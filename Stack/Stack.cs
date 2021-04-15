@@ -32,9 +32,29 @@ namespace Stack
                 stackArray[top] = m;
             }
         }
+        public string pop()
+        {
+            if (isEmpty())
+            {
+                Console.WriteLine("The stack is empty");
+                return "--"
+
+            }
+            else
+            {
+                int old_top = top;
+                top--;
+                return stackArray[old_top];
+            }
+        }
         public bool isFull()
         {
-            return true;
+            return (maxSize - 1 == top);
+        }
+
+        public bool isEmpty()
+        {
+            return(top == -1);
         }
     }
 }
