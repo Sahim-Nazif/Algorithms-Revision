@@ -76,6 +76,7 @@ namespace Queue
             {
                 Console.WriteLine(myQueue[i]);
             }
+            Console.ReadLine();
         }
     }
 }
