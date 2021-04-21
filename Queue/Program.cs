@@ -14,15 +14,15 @@ namespace Queue
 
             Queue myQueue = new Queue(5);
 
-            myQueue.insert(1);
-            myQueue.insert(2);
-            myQueue.insert(3);
-            myQueue.insert(4);
-            myQueue.insert(5);
+            myQueue.Insert(1);
+            myQueue.Insert(2);
+            myQueue.Insert(3);
+            myQueue.Insert(4);
+            myQueue.Insert(5);
             
-            Console.WriteLine("The front of the queue is " + myQueue.peekFront());
-            Console.WriteLine("Removing from queue " + myQueue.remove());
-            myQueue.view();
+            Console.WriteLine("The front of the queue is " + myQueue.PeekFront());
+            Console.WriteLine("Removing from queue " + myQueue.Remove());
+            myQueue.View();
   
 
         }
