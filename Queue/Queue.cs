@@ -70,5 +70,12 @@ namespace Queue
             return (items == maxSize);
         }
 
+        public void view()
+        {
+            for (int i = 0; i < myQueue.Length; i++)
+            {
+                Console.WriteLine(myQueue[i]);
+            }
+        }
     }
 }
