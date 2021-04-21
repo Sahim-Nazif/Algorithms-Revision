@@ -37,7 +37,7 @@ namespace Stack
             if (isEmpty())
             {
                 Console.WriteLine("The stack is empty");
-                return "--"
+                return "--";
 
             }
             else
@@ -46,6 +46,11 @@ namespace Stack
                 top--;
                 return stackArray[old_top];
             }
+        }
+
+        public string peek()
+        {
+            return stackArray[top];
         }
         public bool isFull()
         {
