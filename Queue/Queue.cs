@@ -44,6 +44,26 @@ namespace Queue
             }
         }
 
+        public long remove()
+        {
+            long temp = myQueue[front];
+            front++;
+            if (front ==maxSize)
+            {
+                front = 0;
+            }
+            return temp;
+
+        }
+
+        public long  peekFront()
+        {
+            return myQueue[front];
+        }
+        public bool isEmpty()
+        {
+            return (items == 0);
+        }
         public bool isFull()
         {
 
