@@ -14,8 +14,16 @@ namespace LinearSearch
          */
         static void Main(string[] args)
         {
+
+            int theValue = 7;
+            int[] array = new int[] { 1, 4, 6, 7, 9, 13, 21 };
+            Console.WriteLine("The array contains:");
+            Array.ForEach(array, x => Console.Write(x + " "));
+            Console.Write($"\n\n The result of a Linear search for {theValue} is: ");
+            Console.WriteLine(LinearSearch(array, theValue));
+            Console.ReadLine();
         }
-        public static int LinearSerach(int []a, int x)
+        public static int LinearSearch(int []a, int x)
         {
 
             for (int i = 0; i <a.Length; i++)

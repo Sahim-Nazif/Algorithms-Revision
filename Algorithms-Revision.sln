@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{C65CEA37-2778-4C31-9CFE-74B1BB91FC98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{3C644003-05B3-48B8-8945-81ED443DAB38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C65CEA37-2778-4C31-9CFE-74B1BB91FC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65CEA37-2778-4C31-9CFE-74B1BB91FC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C65CEA37-2778-4C31-9CFE-74B1BB91FC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C644003-05B3-48B8-8945-81ED443DAB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C644003-05B3-48B8-8945-81ED443DAB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C644003-05B3-48B8-8945-81ED443DAB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C644003-05B3-48B8-8945-81ED443DAB38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

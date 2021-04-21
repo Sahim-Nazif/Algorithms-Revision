@@ -23,10 +23,10 @@ namespace Queue
             items = 0;
         }
 
-        public void insert(long j)
+        public void Insert(long j)
         {
 
-            if (isFull())
+            if (IsFull())
             {
                 Console.WriteLine("Queue is Full");
 
@@ -44,7 +44,7 @@ namespace Queue
             }
         }
 
-        public long remove()
+        public long Remove()
         {
             long temp = myQueue[front];
             front++;
@@ -56,21 +56,21 @@ namespace Queue
 
         }
 
-        public long  peekFront()
+        public long  PeekFront()
         {
             return myQueue[front];
         }
-        public bool isEmpty()
+        public bool IsEmpty()
         {
             return (items == 0);
         }
-        public bool isFull()
+        public bool IsFull()
         {
 
             return (items == maxSize);
         }
 
-        public void view()
+        public void View()
         {
             for (int i = 0; i < myQueue.Length; i++)
             {
